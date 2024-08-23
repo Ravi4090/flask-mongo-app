@@ -22,13 +22,13 @@ This guide details the steps to deploy a Python Flask application connected to M
   - Use the Dockerfile to create an image for the Flask application.
 
   ```bash
-  docker build -t <your-dockerhub-username>/flask-mongo-app:latest .
+  docker build -t ravishankar119/flask-mongo-app:latest .
   ```
 
 - **Push the Docker Image to Docker Hub:**
 
   ```bash
-  docker push <your-dockerhub-username>/flask-mongo-app:latest
+  docker push ravishankar119/flask-mongo-app:latest
   ```
 
 ## 3. **Kubernetes Setup**
@@ -105,5 +105,3 @@ This guide details the steps to deploy a Python Flask application connected to M
 This guide provides a step-by-step approach to deploying a Flask application with MongoDB on Minikube. It includes setting up the application, building and pushing the Docker image, configuring Kubernetes deployments, and managing resources.
 
 ---
-
-Feel free to adjust or add any specific details as needed!
