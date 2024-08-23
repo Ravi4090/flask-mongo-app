@@ -1,4 +1,3 @@
-Got it! Here's the revised `README.md` reflecting the volume setup within the MongoDB StatefulSet:
 
 ---
 
